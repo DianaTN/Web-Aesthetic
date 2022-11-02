@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML5 - CSS3</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+        </header>
+        <div id="principal">
+            <nav>
+                <!-- ul>a*9>li  -->
+                <ul>
+                    <a href="index.html">
+                        <li>HOME</li>
+                    </a>
+                    <a href="parrafos.html">
+                        <li>PÁRRAFOS</li>
+                    </a>
+                    <a href="enlaces.html">
+                        <li>ENLACES</li>
+                    </a>
+                    <a href="listas.html">
+                        <li>LISTAS</li>
+                    </a>
+                    <a href="tablas.html">
+                        <li>TABLAS</li>
+                    </a>
+                    <a href="formularios.html">
+                        <li>FORMULARIOS</li>
+                    </a>
+                    <a href="multimedia.html">
+                        <li>MULTIMEDIA</li>
+                    </a>
+                    <a href="form-html5.html">
+                        <li>FORM-HTML5</li>
+                    </a>
+                </ul>
+            </nav>
+            <div id="content">
+                <div id="tablas">
+                    <h1 class="txt-center">Tablas</h1>
+                    <h2 class="txt-center"> Tabla de encabezado de fila</h2>
+
+                    <table border="1" class="theader" align="center">
+                        <tr>
+                            <th>Company</th>
+                            <th>Contact</th>
+                            <th>Country</th>
+                        </tr>
+                        <tr>
+                            <td>Alfreds Futterkiste</td>
+                            <td>Maria Anders</td>
+                            <td>Germany</td>
+                        </tr>
+                        <tr>
+                            <td>Centro Comercial Moctezuma</td>
+                            <td>Francisco Chang</td>
+                            <td>Mexico</td>
+                        </tr>
+                        <tr>
+                            <td>Ernst Handel</td>
+                            <td>Roland Mendel</td>
+                            <td>Austria</td>
+                        </tr>
+                        <tr>
+                            <td>Island Trading</td>
+                            <td>Helen Bennet</td>
+                            <td>UK</td>
+                        </tr>
+                        <tr>
+                            <td>Laughing Bacchus Winecellars</td>
+                            <td>Yoshi Tannamuri</td>
+                            <td>Canada</td>
+                        </tr>
+                        <tr>
+                            <td>Magazzini Alimentari Riuniti</td>
+                            <td>Giovanni Rovelli</td>
+                            <td>Italy</td>
+                        </tr>
+                    </table>
+
+                    <h2 class="txt-center">Tabla de encabezado de columna</h2>
+                    <table border="1" class="theader" align="center">
+                        <tr>
+                            <th>Company</th>
+                            <td>Contact</td>
+                            <td>Country</td>
+                        </tr>
+                        <tr>
+                            <th>Alfreds Futterkiste</th>
+                            <td>Maria Anders</td>
+                            <td>Germany</td>
+                        </tr>
+                        <tr>
+                            <th>Centro Comercial Moctezuma</th>
+                            <td>Francisco Chang</td>
+                            <td>Mexico</td>
+                        </tr>
+                        <tr>
+                            <th>Ernst Handel</th>
+                            <td>Roland Mendel</td>
+                            <td>Austria</td>
+                        </tr>
+                        <tr>
+                            <th>Island Trading</th>
+                            <td>Helen Bennet</td>
+                            <td>UK</td>
+                        </tr>
+                        <tr>
+                            <th>Laughing Bacchus Winecellars</th>
+                            <td>Yoshi Tannamuri</td>
+                            <td>Canada</td>
+                        </tr>
+                        <tr>
+                            <th>Magazzini Alimentari Riuniti</th>
+                            <td>Giovanni Rovelli</td>
+                            <td>Italy</td>
+                        </tr>
+                    </table>
+
+
+                    <h2 class="txt-center">Tabla con combinaciones de celda</h2>
+                    <table border="1" align="center">
+                        <tr>
+                            <td>Company</td>
+                            <td>Contact</td>
+                            <td>Country</td>
+                        </tr>
+                        <tr>
+                            <td>Alfreds Futterkiste</td>
+                            <td>Maria Anders</td>
+                            <td>Germany</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">Centro Comercial Moctezuma</td>
+                            <td>Mexico</td>
+                        </tr>
+                        <tr>
+                            <td>Ernst Handel</td>
+                            <td>Roland Mendel</td>
+                            <td>Austria</td>
+                        </tr>
+                        <tr>
+                            <td rowspan="3">Island Trading</td>
+                            <td>Helen Bennet</td>
+                            <td>UK</td>
+                        </tr>
+                        <tr>
+                            <td>Yoshi Tannamuri</td>
+                            <td>Canada</td>
+                        </tr>
+                        <tr>
+                            <td>Giovanni Rovelli</td>
+                            <td>Italy</td>
+                        </tr>
+                    </table>
+
+                    <h2 class="txt-center">Tabla con diferente diseño de filas pares e impares</h2>
+                    <table border="1" class="striped" align="center">
+                        <caption>Título de la tabla :D</caption>
+                        <tr>
+                            <td>Company</td>
+                            <td>Contact</td>
+                            <td>Country</td>
+                        </tr>
+                        <tr>
+                            <td>Alfreds Futterkiste</td>
+                            <td>Maria Anders</td>
+                            <td>Germany</td>
+                        </tr>
+                        <tr>
+                            <td>Centro Comercial Moctezuma</td>
+                            <td>Francisco Chang</td>
+                            <td>Mexico</td>
+                        </tr>
+                        <tr>
+                            <td>Ernst Handel</td>
+                            <td>Roland Mendel</td>
+                            <td>Austria</td>
+                        </tr>
+                        <tr>
+                            <td>Island Trading</td>
+                            <td>Helen Bennet</td>
+                            <td>UK</td>
+                        </tr>
+                        <tr>
+                            <td>Laughing Bacchus Winecellars</td>
+                            <td>Yoshi Tannamuri</td>
+                            <td>Canada</td>
+                        </tr>
+                        <tr>
+                            <td>Magazzini Alimentari Riuniti</td>
+                            <td>Giovanni Rovelli</td>
+                            <td>Italy</td>
+                        </tr>
+                    </table>
+
+                    <h2 class="txt-center">Horario escolar</h2>
+                    <table border="1" class="tablita" align="center">
+                        <tr>
+                            <th colspan="8" class="horas">S1DAM</th>
+                        </tr>
+                        <tr>
+                            <th class="horas">Cosito</th>
+                            <td class="horas">Lunes</td>
+                            <td class="horas">Martes</td>
+                            <td class="horas">Miércoles</td>
+                            <td class="horas">Jueves</td>
+                            <td class="horas">Viernes</td>
+                        </tr>
+                        <tr>
+                            <th class="horas">8:15 <br>9:10</br></th>
+                            <td rowspan="2" class="programacion">PROG <br>Mart Ca, JoJa</br> (1B-302)</td>
+                            <td rowspan="2" class="base">BDD <br>Bern. Be, Cr <br> (1 B-302)</td>
+                            <td rowspan="2" class="sisi"> SISI <br>Álva. Gi, An <br> (1 B-302) </td>
+                            <td rowspan="2" class="programacion">PROG <br>Mart Ca, JoJa<br> (1B-302)</td>
+                            <td rowspan="2" class="programacion">PROG <br>Mart Ca, JoJa<br> (1B-302)</td>
+                        </tr>
+                        <tr>
+                            <th class="horas">9:10 <br>10:05</br></th>
+                        </tr>
+                        <tr>
+                            <th class="horas">10:05 <br>11:00</br></th>
+                            <td class="lenguaje">LMSG <br>Puli. Mo, FrJo<br>  (1 B-302)</td>
+                            <td class="fol">FOL <br> Marín Ca, RoMa<br>  (1 B-302) </td>
+                            <td class="ende">ENDE <br>Polo Or, Ed <br> (1 B-102)</td>
+                            <td class="fol">FOL <br> Marín Ca, RoMa<br>  (1 B-302) </td>
+                            <td class="sisi"> SISI <br>Álva. Gi, An <br> (1 B-302) </td>
+                        </tr>
+                        <tr>
+                            <th> </th>
+                            <th colspan="7" class="horas">recreo</th>
+                        </tr>
+                        <tr>
+                            <th class="horas">11:30 <br>12:25</br></th>
+                            <td class="lenguaje">LMSG <br>Puli. Mo, FrJo<br> (1 B-302)</td>
+                            <td class="ingles"> ING <br> Guti Sa, JoÁn<br> (1 B-302) </td>
+                            <td class="fol">FOL <br> Marín Ca, RoMa<br> (1 B-302) </td>
+                            <td class="ende">ENDE <br>Polo Or, Ed <br> (1 B-102)</td>
+                            <td class="sisi">SISI <br>Álva. Gi, An <br> (1 B-302)</td>
+                        </tr>
+                        <tr>
+                            <th class="horas">12:25 <br>13:20</br></th>
+                            <td class="ingles">ING <br> Guti Sa, JoÁn<br> (1 B-302)</td>
+                            <td rowspan="2" class="sisi">SISI <br>Álva. Gi, An <br> (1 B-302)</td>
+                            <td rowspan="2" class="lenguaje">LMSG <br>Puli. Mo, FrJo<br>  (1 B-302)</td>
+                            <td rowspan="2" class="base">BDD <br>Bern. Be, Cr <br> (1 B-302)</td>
+                            <td rowspan="2" class="base">BDD <br>Bern. Be, Cr <br> (1 B-302)</td>
+                        </tr>
+                        <tr>
+                            <th class="horas">13:20 <br>14:15</br></th>
+                            <td class="ende">ENDE <br>Polo Or, Ed <br> <br>(1 B-102)<br></td>
+                        </tr>
+                    </table>
+
+                </div>
+
+            </div>
+            <div class="cb"></div>
+        </div>
+        <footer>&copy; Diana Tena Nieto</footer>
+    </div>
+</body>
+
+</html>

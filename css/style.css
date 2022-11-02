@@ -1,0 +1,315 @@
+*{
+  box-sizing: border-box;
+}
+
+/* LO SIGUIENTE ES PARA EL FONDO */
+
+body {
+       margin: 0;
+       background-color: rgb(234, 211, 243);
+     }
+
+     
+/* LO SIGUIENTE ES PARA EL CONTENEDOR DONDE VA A ESTAR TODO */
+
+.container {
+            width: 90%;
+            margin: 0 auto;
+            background-color: rgb(213, 189, 223);
+            border-radius: 10px;
+           }
+
+
+
+/* LO SIGUIENTE ES PARA EL ENCABEZADO */
+
+header {
+         background-image: url(../img/header2.png);
+         background-repeat: no-repeat;
+         background-size: cover;
+         height: 175px;
+         border-radius: 10px;
+        }
+
+/* LO MISMO PERO ES PARA EL PIE DE PÁGINA */
+      
+footer {
+         background-color: #b8a3c1;
+         color: rgb(44, 13, 30);
+         text-align: center;
+         font-size: 26px;
+         font-weight: bold;
+         padding: 20px;
+         border-radius: 10px;
+        }
+
+/* LO SIGUIENTE ES PARA LA BARRITA DE NAVEGACIÓN */
+
+nav {
+    background-color: rgb(178, 152, 189);
+    width: 20%;
+    float: left;
+    border-radius: 20px;
+    }
+
+/* AQUI SE MUESTRA LO QUE HAY CONTENIDO EN LA CAJA */
+
+#content {
+      width: 78%;
+      float: right;
+      padding: auto;
+  }
+
+/* ESTO SIRVE PARA QUE NO SE SUPERPONGAN NINGUNA DE LAS CAJAS A LAS DEMÁS*/
+.cb {
+     clear: both;
+    }
+
+
+/* ESTO ES PARA LA BARRA DE NAVEGACIÓN */
+nav ul {
+         padding: 0;
+         margin: 0;
+         list-style-type: none;
+       }
+
+nav ul li {
+             text-align: center;
+             color: white;
+             font-weight: bold;
+             font-style: inherit;
+             padding: 16px 0;
+             border-radius: 20px;
+             border: solid 2px rgb(243, 192, 245);
+          }
+
+nav ul li:hover {
+                 color: rgb(24, 17, 22);
+                 background-color: rgb(240, 178, 248); 
+                }
+
+
+/* ESTO SIRVE PARA QUE LAS PALABRAS EN LA BARRA DE NAVEGACIÓN NO TENGAN NINGUNA DECORACIÓN (Subrayado)*/                
+a {
+    text-decoration: none;
+  }
+
+#principal {
+            display: flex;
+           }
+
+/* Aquí se menciona cómo queremos que se encuentre la página Home, mencionando que queremos que esté centrado*/
+#home {
+      text-align: center;
+      padding-top: 20px;
+}
+
+/* Aquí hay algunas etiquetas que editan las páginas*/
+
+.txt-azul{
+  color:rgb(27, 95, 95)
+}
+
+.tag{
+  color: rgb(255, 4, 4);
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.txt-center
+{
+  text-align: center;
+}
+
+/* Aquí se menciona cómo queremos la página Párrafos*/
+#parrafos
+{
+padding: 0 30px;
+border-radius: 5px;
+}
+
+#cajita{
+  background-color: rgb(178, 104, 207);
+  height: 40px;
+  width: 40px;
+}
+
+/* Aquí se mira si hay que editar algo de la página Enlaces*/
+
+#enlaces
+{
+padding: 0 30px;
+}
+
+
+/*Aquí se miran las cositas de la página de Listas*/
+
+#listas{
+  padding: 0 20px;
+}
+
+/*-----------------------------------------*/
+
+
+ul.customdesordenadas li
+{
+  list-style-type: square;
+}
+
+ul.customdesordenadas li li
+{
+  list-style-type: circle;
+}
+
+ul.customdesordenadas li li li
+{
+  list-style-type: circle;
+}
+
+/*-----------------------------------------*/
+
+ul.customordenadas li
+{
+  list-style-type: decimal;
+}
+
+ul.customordenadas li li
+{
+  list-style-type:lower-alpha;
+}
+
+ul.customordenadas li li li
+{
+  list-style-type:georgian;
+}
+
+/*-----------------------------------------*/
+
+ul.customimagenes li
+{
+  list-style-type: decimal;
+}
+
+ul.customimagenes li li
+{
+  list-style-image: url(../img/heart.png);
+}
+
+ul.customimagenes li li li
+{
+  list-style-image: none;
+  list-style-type:lower-alpha;
+}
+
+.definicion
+{
+  color: rgb(167, 108, 206);
+  font-weight: bold;
+  font-size: 30px;
+}
+
+
+/* Aquí se empiezan a hablar de la página Tablas*/
+
+
+table.theader th
+{
+  background-color: rgb(227, 157, 255);
+  color: rgb(0, 0, 0);
+  font-size: 24px;
+}
+
+table.theader td
+{
+  background-color: rgb(236, 195, 241);
+  color: rgb(255, 255, 255);
+}
+
+/* Aquí hay que poner la mierda esta del par e impar ;A; */
+table.striped tr:nth-child(even) {
+  background-color:   rgb(255, 255, 255);
+}
+table.striped tr:nth-child(odd) {
+  background-color:  rgb(227, 157, 255);
+}
+
+/* Aquí se empieza a hacer el horario */
+
+.tablita{
+  background-color: antiquewhite;
+  text-align: center;
+}
+.horas {
+  color: rgb(47, 98, 107);
+}
+
+.programacion{
+  background-color: rgb(213, 224, 52);
+}
+.base{
+background-color: rgb(112, 240, 212);
+}
+.lenguaje{
+background-color: rgb(22, 85, 141);
+}
+.ingles{
+  background-color: rgb(161, 231, 161);
+}
+.ende{
+background-color: rgb(155, 88, 119);
+}
+.sisi{
+background-color: rgb(88, 134, 88);
+}
+.fol{
+background-color: rgb(226, 166, 211);
+}
+
+
+
+/* FORMULARIOS NORMALES */
+
+#formularios{
+  padding: 0 20px;
+}
+
+form.registro 
+{
+  width: 60%;
+  background-color: rgb(199, 147, 214);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+
+/*Esta pequeña parte es para la Multimedia*/
+
+#multimedia{
+  padding: 0 20px;
+}
+
+/* FORMULARIO HTML5 */
+
+#formulario_html5
+{
+padding: 0 30px;
+}
+
+.formulario_html5
+{
+  text-align: center;
+  color: rgb(0, 0, 0);
+  font-style: italic;
+  font-size: 20px;
+  width: 50%;
+  margin: 0 auto;
+  background-color: rgb(199, 147, 214);
+  border-radius: 5px;
+}
+
+.fieldset{
+  border-style: solid;
+  border-color: rgb(0, 0, 0);
+  border-width: 3px;
+  border-radius: 10px;
+}

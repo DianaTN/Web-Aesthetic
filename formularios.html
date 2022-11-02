@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML5 - CSS3</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+        </header>
+        <div id="principal">
+            <nav>
+                <!-- ul>a*9>li  -->
+                <ul>
+                    <a href="index.html">
+                        <li>HOME</li>
+                    </a>
+                    <a href="parrafos.html">
+                        <li>PÁRRAFOS</li>
+                    </a>
+                    <a href="enlaces.html">
+                        <li>ENLACES</li>
+                    </a>
+                    <a href="listas.html">
+                        <li>LISTAS</li>
+                    </a>
+                    <a href="tablas.html">
+                        <li>TABLAS</li>
+                    </a>
+                    <a href="formularios.html">
+                        <li>FORMULARIOS</li>
+                    </a>
+                    <a href="multimedia.html">
+                        <li>MULTIMEDIA</li>
+                    </a>
+                    <a href="form-html5.html">
+                        <li>FORM-HTML5</li>
+                    </a>
+                </ul>
+            </nav>
+
+            <div id="content">
+                <div id="formularios">
+                    <h1 class="txt-center">Formularios</h1>
+                    <h2>Formulario login:</h2>
+                    <form action="pagina.php" method="get">
+                        <input type="user" name="Usuario" value=""> </br></br>
+                        <input type="password" name="Contraseña" value=""> </br></br>
+                        <input type="submit" value="Aceptar"><br/>
+                    </form>
+
+                    <h2>Formularios de registro:</h2>
+                    <form action="pagina.php" method="post">
+                        <input type="user" name="Usuario" placeholder="User"> </br></br>
+                        <input type="password" name="Contraseña" placeholder="Password"> </br></br>
+                        <input type="submit" value="Aceptar"><br />
+                    </form>
+                    </br></br>
+
+                    <h2>Formulario Registro:</h2>
+                    <form action="pagina.php?var=kk" method="get" class="registro">
+                        <fieldset class="fieldset">
+                            <legend class="txt-center">Registro</legend>
+                            <input type="text" name="user" id="" placeholder="User"/>
+                            <input type="password" name="clave" id="" placeholder="Password"><br /><br />
+                            <textarea name="comentarios" id="" class="w-100" rows="5"  placeholder="Comentarios" ></textarea>
+
+                            </br></br>
+
+                            Aficiones:</br>
+                            <input type="checkbox" name="aficiones" id="" value="Cine"> Cine </br>
+                            <input type="checkbox" name="aficiones" id="" value="Viajar"> Viajar </br>
+                            <input type="checkbox" name="aficiones" id="" value="Leer"> Leer </br>
+                            <input type="checkbox" name="aficiones" id="" value="Comer"> Comer </br>
+
+                            </br></br>
+
+                            Género: </br>
+                            <input type="radio" name="Genero" id="" value="Hombre"> Hombre </br>
+                            <input type="radio" name="Genero" id="" value="Mujer"> Mujer </br>
+                            <input type="radio" name="Genero" id="" value="Otro"> Otro </br>
+
+                            </br></br>
+
+                            Provincia:<br />
+                            <select name="provincia" id="">
+                                <option value="0" disabled selected>Elija provincia</option>
+                                <option value="1">Albacete</option>
+                                <option value="2">Ciudad Real</option>
+                                <option value="3">Cuenca</option>
+                                <option value="4">Guadalajara</option>
+                                <option value="5">Toledo</option>
+                            </select>
+
+                            <br><br>
+                            Provincia:<br />
+                            <select name="provincia" id="" multiple size="5">
+                                <option value="1">Albacete</option>
+                                <option value="2">Ciudad Real</option>
+                                <option value="3">Cuenca</option>
+                                <option value="4">Guadalajara</option>
+                                <option value="5">Toledo</option>
+                            </select>
+                            <br /><br />
+                            <input type="button" value="Pulsa" onclick="alert('hola')">
+                            <input type="submit" value="Aceptar"><br />
+
+                        </fieldset>
+
+
+                    </form>
+                </div>
+
+            </div>
+            <div class="cb"></div>
+        </div>
+        <footer>&copy; Diana Tena Nieto</footer>
+    </div>
+</body>
+
+</html>
