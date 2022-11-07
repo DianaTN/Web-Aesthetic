@@ -58,6 +58,8 @@ nav {
       width: 80%;
       float: right;
       padding: auto;
+      background-color: aliceblue;
+      border-radius: 5px;
   }
 
 /* ESTO SIRVE PARA QUE NO SE SUPERPONGAN NINGUNA DE LAS CAJAS A LAS DEMÁS*/
